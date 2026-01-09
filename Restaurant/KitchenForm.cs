@@ -25,7 +25,7 @@ namespace Restaurant
         }
 
         private void KitchenForm_Load(object sender, EventArgs e)
-        {   // test 2
+        {   // test 3
             var thread = new Thread(()         =>
             {
                 int listenPort = 11000;
