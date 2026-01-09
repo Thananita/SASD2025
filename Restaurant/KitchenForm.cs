@@ -26,7 +26,7 @@ namespace Restaurant
 
         private void KitchenForm_Load(object sender, EventArgs e)
         {
-            var thread = new Thread(()   =>
+            var thread = new Thread(() =>
             {
                 int listenPort = 11000;
                 TcpListener server = new TcpListener(IPAddress.Any, listenPort);
